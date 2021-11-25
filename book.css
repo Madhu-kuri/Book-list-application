@@ -1,0 +1,102 @@
+body{
+    background-color: hsla(89, 43%, 51%, 0.3);
+    text-align: center;
+} 
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background-color: hsla(89, 43%, 51%, 0.3);
+  }
+.heading{
+    margin:20px 0 5px 20px;
+
+}
+#book-form{
+    display: block;
+    margin-top:5% ;
+    font-size: 15px;
+    font-weight: bold;
+}
+#title{
+    margin-bottom: 3%;
+    margin-left: 3%;
+    text-decoration: none;
+    width: 90%;
+    font-size: 20px;
+}
+#author{
+    margin-bottom: 3%;
+    margin-left: 3%;
+    text-decoration: none;
+    width: 90%;
+    font-size: 20px;
+}
+#isbn{
+    margin-bottom: 3%;
+    margin-left: 3%;
+    text-decoration: none;
+    width: 90%;
+    font-size: 20px;
+    text-align: left;
+     
+}
+#submit-btn{
+    margin-left: 1%;
+    margin-bottom: 5% ;
+    font-size: medium;
+    padding: 1.5%;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    color: whitesmoke;
+    background-color: #001a66;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+#table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    /* margin-left: 10%;  */
+}
+#table th{
+      padding-top: 12px;
+      padding-bottom: 12px;
+      /* text-align: left; */
+      background-color: bisque;
+      color: black;
+      font-weight: 700;
+}
+#table tr:hover{
+    background-color: lightgreen;
+}
+#table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#table td, #table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#clear-btn {
+    margin-left: 80%;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+#book-list{
+    font-size: 20px;
+    color: black;
+}
+td {
+    font-size: 20px ;
+    font-weight: 500;
+    color: crimson;
+    font-family: Georgia;
+}
+/* body{
+    background-color: hsla(89, 43%, 51%, 0.3);
+    text-align: center;
+} */

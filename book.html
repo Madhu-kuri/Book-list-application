@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" type="text/css"  href="https://bootswatch.com/4/yeti/bootstrap.min.css"> 
+    <title>Book-List App</title>
+    <link rel="stylesheet" type="text/css"  href="book.css"> 
+</head>
+<body>
+  <div class="container">
+    <div   class="heading">
+        <h1> <i class="fas fa-book-open text-primary"></i>   Add Book</h1>  
+    </div>
+        <form id="book-form">
+        <div class="form-group">
+            <label for="title" >Book-Title</label>
+            <input  type="text" id="title" style="padding: 1%;" class="form-control" >
+        </div>
+        <div class="form-group">
+            <label for="author">Author</label>
+            <input   type="text" id="author" style="padding: 1%" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="ISBN">ISBN </label> <br>
+            <input  type="text" id="isbn" style="padding: 1%;" class="form-control">          
+        </div>
+        <div>
+            <input value="submit"  type="submit" id="submit-btn">
+        </div>
+    </form>
+  </div>
+       <table class="table table-striped ">
+          <tr>
+             <th>Title</th>
+             <th>Author</th>
+             <th>ISBN</th>
+             <th></th>
+          </tr>  
+            <tbody id="book-list"></tbody>
+    </table>
+ <script type="text/javascript" src="book.js"></script>
+
+</body>
+
+</html>
